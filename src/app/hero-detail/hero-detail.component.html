@@ -1,0 +1,10 @@
+
+<div *ngIf="hero">
+  <p>
+    herodetail works!
+  </p>
+  <h2>Hero Detail:</h2>
+  {{hero.id}}: <input [(ngModel)]="hero.name" type="text">
+  <button (click)="save()">save</button>
+  <button (click)="goBack()">back</button>
+</div>

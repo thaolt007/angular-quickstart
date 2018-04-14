@@ -1,0 +1,11 @@
+<h1>heroes works!</h1>
+<div>
+  <h2>List heroes</h2>
+  <ul *ngFor="let hero of heroes">
+    <li>
+      {{hero.id}}: <a routerLink="detail/{{hero.id}}">{{hero.name}}</a>
+    </li>
+  </ul>
+</div>
+
+
